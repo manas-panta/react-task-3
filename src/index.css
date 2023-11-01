@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background-color: #949394;
+  min-height: 100vh;
+}
+.display {
+  width: 70%;
+  height: 80vh;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+.color-bar {
+  display: flex;
+  flex-wrap: wrap;
+  flex: row;
+  margin-bottom: 15px;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+}
+
+h2{
+  text-align: center;
+  margin-top: 20px;
+}
